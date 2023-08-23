@@ -2,8 +2,8 @@ import Ribbon from "./Ribbon"
 
 export default function Footer() {
   return (
-    <div>
-      <div class="py-1 bg-purple-600"></div>
+    <footer>
+      <div class="py-1 bg-gradient-to-r from-cyan-600 to-purple-950"></div>
 
       <div class="bg-black text-white sm:flex justify-around">
         <div class="pt-16 px-16">
@@ -46,7 +46,6 @@ export default function Footer() {
       <div class="py-6 bg-black text-neutral-500 font-roboto text-center">
         @2023 PV Strategies
       </div>
-
-    </div>
+    </footer>
   )
 }
