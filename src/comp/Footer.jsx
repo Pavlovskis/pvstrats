@@ -1,4 +1,3 @@
-import Ribbon from "./Ribbon"
 
 export default function Footer() {
   return (

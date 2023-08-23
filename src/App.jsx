@@ -1,8 +1,8 @@
 import "./index.css"
 
-import Navbar from "./comp/Navbar";
-import Footer from "./comp/Footer";
-import ComingSoon from "./comp/ComingSoon";
+import Navbar from "./comp/Navbar.jsx";
+import Footer from "./comp/Footer.jsx";
+import ComingSoon from "./comp/ComingSoon.jsx";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <ComingSoon></ComingSoon>
 
       <Footer></Footer>
-      
+
     </div>
   );
 } 
