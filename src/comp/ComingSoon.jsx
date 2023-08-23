@@ -12,7 +12,7 @@ export default function () {
         
         <video autoplay loop muted
             class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-            <source src="./src/assets/vid3.mp4" type="video/mp4"/>
+            <source src="../assets/vid3.mp4" type="video/mp4"/>
         </video>
 
         <div class="absolute z-30 p-2 bottom-12 left-20 bg-gradient-to-b from-cyan-600 to-purple-900 rounded-full animate-bounce">
