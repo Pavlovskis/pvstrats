@@ -1,6 +1,7 @@
 {
-  "name": "vite-template-solid",
-  "version": "0.0.0",
+  "homepage": "https://pavlovskis.github.io/PVStrategies/",
+  "name": "pvstudios",
+  "version": "1.0.0",
   "description": "",
   "scripts": {
     "start": "vite",
