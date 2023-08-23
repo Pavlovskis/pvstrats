@@ -12,5 +12,5 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
-  base:"/pvstrategies"
+  base:"/pvstrats"
 });
