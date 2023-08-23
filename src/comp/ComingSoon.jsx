@@ -1,4 +1,3 @@
-import vidUrl from './src/assets/vid.mp4'
 
 export default function () {
 
