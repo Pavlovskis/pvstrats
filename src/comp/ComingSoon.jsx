@@ -1,7 +1,10 @@
-import Footer from "./Footer.jsx"
+import vidUrl from './src/assets/vid.mp4'
 
 export default function () {
-  return (
+
+    document.getElementById('').src = vidUrl
+
+    return (
     <div class="relative flex items-center h-screen overflow-hidden">
         <div class="absolute z-30 p-5 sm:text-7xl text-5xl text-white uppercase font-audiowide sm:left-12">
             Digital <br /> Strategies
@@ -12,7 +15,7 @@ export default function () {
         
         <video autoplay loop muted
             class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-            <source src="../assets/vid3.mp4" type="video/mp4"/>
+            <source src="/src/assets/vid3.mp4" type="video/mp4"/>
         </video>
 
         <div class="absolute z-30 p-2 bottom-12 left-20 bg-gradient-to-b from-cyan-600 to-purple-900 rounded-full animate-bounce">
@@ -22,5 +25,5 @@ export default function () {
             </svg>
         </div>
     </div>
-  )
+    )
 }
