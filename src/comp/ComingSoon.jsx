@@ -1,3 +1,4 @@
+import vidUrl from "../assets/vid3.mp4"
 
 export default function () {
 
@@ -12,7 +13,7 @@ export default function () {
         
         <video autoplay loop muted
             class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-            <source src="src/assets/vid3.mp4" type="video/mp4"/>
+            <source src={vidUrl} type="video/mp4"/>
         </video>
 
         <div class="absolute z-30 p-2 bottom-12 sm:left-20 left-8 bg-gradient-to-b from-cyan-600 to-purple-900 rounded-full animate-bounce">
