@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-box {
+@apply px-8 py-6
+    cursor-pointer
+
+    hover:bg-primaryLight
+    hover:pb-1
+    hover:border-b-4
+    hover:border-red-600
+
+    duration-200
+}
