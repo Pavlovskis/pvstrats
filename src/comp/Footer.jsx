@@ -36,7 +36,7 @@ export default function Footer() {
             </svg>
 
             <div class="pl-2">
-              pavlov1440@gmail.com
+              pavlov14402@gmail.com
             </div>
           </div>
         </div>
