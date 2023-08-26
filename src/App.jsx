@@ -6,8 +6,7 @@ import ComingSoon from "./comp/ComingSoon.jsx";
 
 function App() {
   return (
-    <div>
-
+    <div class="cursor-default">
       <ComingSoon></ComingSoon>
 
       <Footer></Footer>

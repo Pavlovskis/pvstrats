@@ -2,14 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-box {
-@apply px-8 py-6
-    cursor-pointer
+/*body*/
 
-    hover:bg-primaryLight
-    hover:pb-1
+.text-grad {
+    @apply bg-gradient-to-b
+    bg-clip-text 
+    text-transparent 
+    from-slate-800 to-white
+}
+
+/*navbar*/
+
+.nav-box {
+@apply text-white 
+    text-xl
+    px-8 pb-3 pt-6
+
+    hover:bg-slate-200
+    hover:bg-opacity-10
     hover:border-b-4
-    hover:border-red-600
 
     duration-200
 }
