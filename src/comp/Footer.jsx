@@ -10,10 +10,10 @@ export default function Footer() {
             About Me 
           </h1>
           <div class="">
-            I'm Paul, a digital enthusiast specializing in social media marketing and website design.
-            With a knack for capturing brand essence and translating it online. From dynamic websites
+            I'm Paul, a digital enthusiast specializing in social media marketing and website design,
+            with a knack for capturing brand essence and translating it online. From dynamic websites
             to engaging social campaigns, my approach combines creativity with technical expertise.
-            Let's collaborate and elecate your online presence!
+            Let's collaborate and elevate your online presence!
           </div>
         </div>
 
